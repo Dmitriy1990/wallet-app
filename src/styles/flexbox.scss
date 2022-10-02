@@ -1,0 +1,25 @@
+.container {
+  margin: 0 auto;
+  max-width: calc(480px + 32px);
+  padding: 0 16px;
+  position: relative;
+}
+
+.self {
+  &Bottom {
+    align-self: flex-end;
+  }
+}
+
+.flex {
+  display: flex;
+  &-column {
+    flex-direction: column;
+  }
+  &-between {
+    justify-content: space-between;
+  }
+  &-center {
+    align-items: center;
+  }
+}

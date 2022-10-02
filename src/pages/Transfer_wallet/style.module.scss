@@ -1,0 +1,40 @@
+.tabs {
+  display: flex;
+  &-item {
+    flex: 1;
+    border-radius: 16px 16px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    cursor: pointer;
+    padding: 20px 10px 18px;
+    &__text {
+      color: rgba(55, 55, 55, 0.4);
+    }
+    &__icon {
+      margin-right: 7px;
+      opacity: 0.4;
+      path {
+        fill: var(--dark);
+      }
+    }
+    &--active {
+      background-color: var(--white);
+      &__text {
+        color: rgba(55, 55, 55, 1);
+      }
+      &__icon {
+        margin-right: 7px;
+        opacity: 1;
+        path {
+          fill: var(--orange);
+        }
+      }
+    }
+  }
+}
+
+.card-border {
+  border-radius: 0px 0px 20px 20px;
+}

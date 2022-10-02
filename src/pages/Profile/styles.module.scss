@@ -1,0 +1,73 @@
+.profile__box {
+  margin: 0 auto 10px;
+}
+
+.profile__form {
+  max-width: 313px;
+}
+
+.form__item {
+  margin: 15px auto;
+  position: relative;
+}
+
+.form__item-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a0a0a0;
+  margin: 0;
+  margin-bottom: 7px;
+}
+.form__input {
+  margin-bottom: 7px;
+  width: 235px;
+  height: 50px;
+  border: 1px solid #b2b8bf;
+  border-radius: 12px;
+  position: relative;
+  padding: 0 15px;
+  &::placeholder {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+  }
+}
+
+.form__error {
+  display: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 137.02%;
+  color: #aaaaaa;
+  margin: 0;
+  max-width: 293px;
+  width: 100%;
+}
+.form__error-text {
+  display: block;
+}
+.relative {
+  position: relative;
+  display: inline-block;
+}
+
+.form__password-control {
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../../assets/svg/glass.svg) 0 0 no-repeat;
+}
+.view {
+  background: url(../../assets/svg/noGlass.svg) 0 0 no-repeat;
+}
+
+.profile__btn_img {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+}

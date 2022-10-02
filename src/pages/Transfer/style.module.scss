@@ -1,0 +1,24 @@
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 18px 15px 20px;
+}
+
+.field {
+  &-small {
+    width: 78px;
+    height: 40px;
+    &-mr {
+      margin-right: 32px;
+    }
+  }
+}
+
+.label {
+  color: #aaaaaa;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 12px;
+  text-decoration-line: underline;
+  user-select: none;
+}
